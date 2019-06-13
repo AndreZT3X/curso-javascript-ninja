@@ -42,6 +42,6 @@ function divisao(x = 10, y = 2) {
 divisao();
 
 // Invoque a função criada acima, passando os parâmetros 10 e 2.
-?
+
 divisao(10, 2);
 ```
