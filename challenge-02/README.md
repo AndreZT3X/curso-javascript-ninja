@@ -52,7 +52,7 @@ function verify(a, x, y) {
 verify(2, 2);
 
 // Qual o resultado da invocação acima? (Use comentários para mostrar o valor retornado).
-// NaN
+// preencha todos os campos!
 
 // Agora invoque novamente a função criada acima, mas passando todos os três argumentos necessários.
 verify(2, 2, 2);
