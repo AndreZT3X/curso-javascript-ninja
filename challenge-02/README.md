@@ -77,9 +77,9 @@ function teste(x, y, z) {
 			return x + y;
 		else if(x !== undefined && y !== undefined && z !== undefined)
 			return (x + y) /z;
-		else {
+		else
 			return false;
-		}
+      
 		return null;
 }
 
