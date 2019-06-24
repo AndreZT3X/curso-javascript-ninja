@@ -70,13 +70,13 @@ Crie uma função com as seguintes características:
 6. E ainda, se nenhuma das condições acima forem atendidas, retorne `null`.
 */
 
-function teste(num1, num2, num3) {
-		if(num1 && num2 === undefined) 
-			return num1;
-		else if(num1 && num2 && num3 === undefined)
-			return num1 + num2;
-		else if(num1 && num2 && num3)
-			return (num1 + num2) /num3;
+function teste(x, y, z) {
+		if(x !== undefined && y === undefined && z === undefined) 
+			return x;
+		else if(x !== undefined && y !== undefined && z === undefined)
+			return x + y;
+		else if(x !== undefined && y !== undefined && z !== undefined)
+			return (x + y) /z;
 		else {
 			return false;
 		}
