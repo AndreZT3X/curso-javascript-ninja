@@ -85,4 +85,11 @@ function teste(num1, num2, num3) {
 
 // Invoque a função acima utilizando todas as possibilidades (com nenhum argumento, com um, com dois e com três.) Coloque um comentário de linha ao lado da função com o resultado de cada invocação.
 ?
+//teste(); false
+
+//teste(2); 2
+
+//teste(2, 2); 4
+
+//teste(8, 4, 2); 6
 ```
