@@ -42,7 +42,7 @@ Crie uma função com as seguintes características:
 3. O retorno da função deve ser a multiplicação dos 3 argumentos, somando `2` ao resultado da multiplicação.
 */
 function verify(a, x, y) {
-	if(a === undefined && x === undefined && y === undefined)
+	if(a === undefined || x === undefined || y === undefined)
 		  return 'preencha todos os campos!';
       
 	 return (a * x * y) + 2;
